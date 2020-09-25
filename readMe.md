@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1600" height="200" src="images/acc.jpg">
+  <img width="1600" height="400" src="images/acc.jpg">
 </p>
 
 
@@ -28,25 +28,26 @@ The project has been implemented on python as a language using Apache Spark on D
 
 The dataset contains the UK road accident data for the year 2015 and has been taken from the following web-page. [2]
 The description of the columns of the dataset is below:
-• Accident_Index: The first column i.e Accident_Index acts as the unique key in the data set and helped us to map every column to its respective key.
-• Location_Easting_OSGR,Location_Northing_OSGR,Lon- gitude, Latitude: The second, third, fourth and the fifth column of the dataset i.e. Location Easting OSGR, Location_Northing_OSGR, Longitude and Latitude gives data about the accident location. These location re- lated data helped to plot the results on google maps.
-• Police_Force: The sixth column is Police_Force that provides data related to police force at the accident lo- cation.
-• Accident_Severity: The seventh column is Accident_Severity. This column suggests the severity of the accident based on numbers. A number 3 indi- cates a severe accident whereas if the accident severity of 1 indicates a less severe accident. This column is acting as a class label for the classification Machine Learning algorithm.
-• Number_of_Vehicles and Number_of_Casualties: The eighth and ninth column explains the number of vehi- cles involved in accident and the number of casualties occurred in the accident.
-• Date,Day_of_Week and Time: The tenth, eleventh and twelfth column provides data about date, day and time of the accident occurring. Using these we can do anal- ysis to find on which day of the week or time most accidents occur.
-• Local_Authority_(District) and Local_Authority_(Highway):The thirteenth and four- teenth column gives us the district and highway num- bers. Doing analysis of these two column we can visu- alise which highways and districts are most prone to severe accidents.
-• 1st_Road_Class, 1st_Road_Number, Road_Type, 2nd_Road_Class and 2nd_Road_Number:The fifteenth, sixteenth, seventeenth, twenty-first and twenty-second column is the road class which gives us the classifica- tion of the road.
-• Speed_limit:The eighteenth column is the speed limit of the road.
-• Junction_Detail and Junction_Control: The nine- teenth and twentieth column gives us the junction and junction control details.
-• Pedestrian_Crossing-Human_Control and Pedestrian_Crossing-Physical_Facilities:The twenty- third and twenty-fourth column provides data about Pedestrian Crossing.
-• Light_Conditions: The twenty-fifth column indicates the light conditions near the accident on a scale of 1-7.
-• Weather_Conditions: The twenty-sixth column is the weather conditions on a scale of 1-9.
-• Road_Surface_Conditions: The twenty-seventh col- umn is the road-surface-condition which is of the range 1-5
-• Special_Conditions_at_Site: The twenty-eighth col- umn indicates if there were any other conditions in the accident sight which might have caused the accident and it ranges from 0-7.
-• Carriageway_Hazards: The twenty-ninth column is the carriageway-hazard which indicates any barriers in the road. The number ranges from 0-7.
-• Urban_or_Rural_Area:The thirtieth column determines if the road belongs to a rural or an urban area.
-• Did_Police_Officer_Attend_Scene_of_Accident:The thirty-first column gives us information whether police came to the accident spot or not
-• LSOA_of_Accident_Location:The thirty-second column is the LSOA OF accident location which is the geo- graphical location surrogate for latitude and longitude.
+
+-  Accident_Index -  The first column i.e Accident_Index acts as the unique key in the data set and helped us to map every column to its respective key.
+- Location_Easting_OSGR,Location_Northing_OSGR,Longitude, Latitude -  The second, third, fourth and the fifth column of the dataset i.e. Location Easting OSGR, Location_Northing_OSGR, Longitude and Latitude gives data about the accident location. These location re- lated data helped to plot the results on google maps.
+- Police_Force -  The sixth column is Police_Force that provides data related to police force at the accident lo- cation.
+-  Accident_Severity -  The seventh column is Accident_Severity. This column suggests the severity of the accident based on numbers. A number 3 indi- cates a severe accident whereas if the accident severity of 1 indicates a less severe accident. This column is acting as a class label for the classification Machine Learning algorithm.
+-  Number_of_Vehicles and Number_of_Casualties -  The eighth and ninth column explains the number of vehi- cles involved in accident and the number of casualties occurred in the accident.
+-  Date,Day_of_Week and Time -  The tenth, eleventh and twelfth column provides data about date, day and time of the accident occurring. Using these we can do anal- ysis to find on which day of the week or time most accidents occur.
+-  Local_Authority_(District) and Local_Authority_(Highway):The thirteenth and four- teenth column gives us the district and highway num- bers. Doing analysis of these two column we can visu- alise which highways and districts are most prone to severe accidents.
+-  1st_Road_Class, 1st_Road_Number, Road_Type, 2nd_Road_Class and 2nd_Road_Number:The fifteenth, sixteenth, seventeenth, twenty-first and twenty-second column is the road class which gives us the classifica- tion of the road.
+-  Speed_limit - The eighteenth column is the speed limit of the road.
+-  Junction_Detail and Junction_Control -  The nine- teenth and twentieth column gives us the junction and junction control details.
+-  Pedestrian_Crossing-Human_Control and Pedestrian_Crossing-Physical_Facilities - The twenty- third and twenty-fourth column provides data about Pedestrian Crossing.
+-  Light_Conditions -  The twenty-fifth column indicates the light conditions near the accident on a scale of 1-7.
+-  Weather_Conditions -  The twenty-sixth column is the weather conditions on a scale of 1-9.
+-  Road_Surface_Conditions -  The twenty-seventh col- umn is the road-surface-condition which is of the range 1-5
+-  Special_Conditions_at_Site -  The twenty-eighth col- umn indicates if there were any other conditions in the accident sight which might have caused the accident and it ranges from 0-7.
+-  Carriageway_Hazards -  The twenty-ninth column is the carriageway-hazard which indicates any barriers in the road. The number ranges from 0-7.
+-  Urban_or_Rural_Area - The thirtieth column determines if the road belongs to a rural or an urban area.
+-  Did_Police_Officer_Attend_Scene_of_Accident -  The thirty-first column gives us information whether police came to the accident spot or not
+-  LSOA_of_Accident_Location - The thirty-second column is the LSOA OF accident location which is the geo- graphical location surrogate for latitude and longitude.
 The feature extraction is done and as a result, few of the features were removed in order to get better result.
 
 # Cleaning of Dataset
@@ -72,21 +73,21 @@ We implemented two algorithms to classify and compare their results to ensure th
 The Figure 1 shows the number of accidents occurred on the days of the week (1-Sunday through 7-Saturday). The chart shows that maximum accidents occurred on Friday.
 
 <p align="center">
-  <img width="400" height="400" src="images/img1.jpg">
+  <img width="400" height="400" src="images/img1.png">
 </p>
 
 The Figure 2 shows the number of accidents occurring in each month with severity. The data is startling as the num- ber of severe accidents are quite high as compared to low severity accidents with July 2015 being the highest and Febru- ary 2015 being the lowest.
 <p align="center">
-  <img width="1200" height="1200" src="images/img2.jpg">
+  <img width="1200" height="1200" src="images/img2.png">
 </p>
 The Figure 3 shows number of accidents occurred on when other conditions are applied. The conditions are: 0-None 1- Auto traffic signal out 2- Auto traffic signal partially de- fective 3- Permanent road signing or marking defective or obscured 4- Roadworks 5- Road surface defective 6- Oil or diesel 7- Mud
 The Auto traffic signal was one of the other conditions when accidents occurred. This visualization can be helpful to over- come the problem of traffic signal and as a result, the number of accidents may get lowered.
 <p align="center">
-  <img width="400" height="400" src="images/img3.jpg">
+  <img width="400" height="400" src="images/img3.png">
 </p>
 The Figure 4 shows number of accidents occurred depend- ing on the road type. The values correspond as follows: 1- Roundabout 2- One way street 3- Dual carriageway 6- Sin- gle carriageway 7- Slip road 9- Unknown The result shows that maximum road accidents for severity 3 occurred on road type Single carriageway.
 <p align="center">
-  <img width="400" height="400" src="images/img4.jpg">
+  <img width="400" height="400" src="images/img4.png">
 </p>
 
 
@@ -95,15 +96,15 @@ The Accident locations have been plotted in google map us- ing API of google map
 The accident locations with severity 1,2 and 3 are plotted on google map using google API in Figure 6, Figure 7 and Figure 8 respectively.
 
 <p align="center">
-  <img width="1000" height="800" src="images/img6.jpg">
+  <img width="1000" height="800" src="images/img6.png">
 </p>
 
 <p align="center">
-  <img width="1000" height="800" src="images/img7jpg">
+  <img width="1000" height="800" src="images/img7.png">
 </p>
 
 <p align="center">
-  <img width="1000" height="800" src="images/img8.jpg">
+  <img width="1000" height="800" src="images/img8.png">
 </p>
 
 # DEPLOYMENT
