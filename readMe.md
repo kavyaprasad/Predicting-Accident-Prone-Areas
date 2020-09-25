@@ -4,20 +4,20 @@
 
 
 # ABSTRACT
-The paper discusses the prediction of road accidents. We have UK road accident dataset for year the 2015. The prob- lem is treated as a machine learning classification problem and the outcome is classified as severity of accident on a range of 1-3 where 1 is the least severe and 3 is the most severe.
+The paper discusses the prediction of road accidents. We have UK road accident dataset for year the 2015. The problem is treated as a machine learning classification problem and the outcome is classified as severity of accident on a range of 1-3 where 1 is the least severe and 3 is the most severe.
 The results have been visualized using bar graphs, line chart, histogram etc. Also, the location of various accident prone areas have been plotted on map. The data related to lati- tude and longitude of such locations in the dataset helped to achieve it.
-# 1. INTRODUCTION
+# INTRODUCTION
 Every day a number of people die out of road accidents all over the world. The severity of road accidents is more in densely populated countries. A country’s asset is their pop- ulation and the health and safety of it is every country’s top priority. Below is the statistics of Annual Global Road Crash: [1]
-• Nearly 1.3 million people die in road crashes each year, on average 3,287 deaths a day.
-• An additional 20-50 million are injured or disabled.
-• More than half of all road traffic deaths occur among young adults ages 15-44.
-• Road traffic crashes rank as the 9th leading cause of death and account for 2.2
-• Road crashes are the leading cause of death among young people ages 15-29, and the second leading cause of death worldwide among young people ages 5-14.
-• Each year nearly 400,000 people under 25 die on the world’s roads, on average over 1,000 a day.
-• Over 90 percent of all road fatalities occur in low and middle-income countries, which have less than half of the world’s vehicles.
-• Road crashes cost USD 518 billion globally, costing individual countries from 1-2 percent of their annual GDP.
-• Road crashes cost low and middle-income countries USD 65 billion annually, exceeding the total amount received in developmental assistance.
-• Unless action is taken, road traffic injuries are pre- dicted to become the fifth leading cause of death by 2030.
+-  Nearly 1.3 million people die in road crashes each year, on average 3,287 deaths a day.
+- An additional 20-50 million are injured or disabled.
+- More than half of all road traffic deaths occur among young adults ages 15-44.
+- Road traffic crashes rank as the 9th leading cause of death and account for 2.2
+- Road crashes are the leading cause of death among young people ages 15-29, and the second leading cause of death worldwide among young people ages 5-14.
+- Each year nearly 400,000 people under 25 die on the world’s roads, on average over 1,000 a day.
+- Over 90 percent of all road fatalities occur in low and middle-income countries, which have less than half of the world’s vehicles.
+- Road crashes cost USD 518 billion globally, costing individual countries from 1-2 percent of their annual GDP.
+- Road crashes cost low and middle-income countries USD 65 billion annually, exceeding the total amount received in developmental assistance.
+- Unless action is taken, road traffic injuries are pre- dicted to become the fifth leading cause of death by 2030.
 The numbers are startling and there is alarming need to have control on road accidents and ensure better road safety.
 This project is to predict the severity of an accident for a particular location given various factors/parameter. The analysis and classification is done of locations more prone to severe accidents. Based on the analysis, a strategy can be applied in order to make people aware of this information, this can be achieved via an phone based application as well. This information will also help tourists to understand the location in a better way and ensure safety measures while traveling.
 Additionally, we have plotted these accidents prone locations on Google map using Google map APIs in python so as to provide better visualisation of results.
@@ -122,7 +122,7 @@ Instructions on how to import Databricks notebook and run the code:
 5) Create Clusters by choosing the clusters in the left-hand column, click on the create cluster tab and enter the cluster name and Apache Spark Version Spark 2.0(Auto-Updating, Scala 2.0)
 
 <p align="center">
-  <img width="400" height="400" src="images/img5.jpg">
+  <img width="400" height="400" src="images/img5.png">
 </p>
 
 
