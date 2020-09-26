@@ -127,7 +127,11 @@ Instructions on how to import Databricks notebook and run the code:
 
 # REFERENCES
 [1] A. F. S. I. R. Travel, “Annual global road crash statistics,” web page. [Online]. Available: https://asirt.org/initiatives/informing-road-users/ road-safety-facts/road-crash-statistics
+
 [2] “Road Safety Data,” Webpage - by Department for Transport., sep 2011.
+
 [3] “Decision tree,” web page. [Online]. Available: https://en.wikipedia.org/wiki/Decision tree learning
+
 [4] S. Solutions, “Logistic regression,” web page. [Online]. Available: http://www.statisticssolutions.com/ what-is-logistic-regression/
+
 [5] “Spark overview,” web page. [Online]. Available: http://spark.apache.org/docs/latest/index.html
